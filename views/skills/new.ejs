@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create New Skill</title>
+</head>
+<body>
+    <h1>New Skill</h1>
+    <!-- forms submit data to the server -->
+    <form action="/skills" method="POST" autocomplete="off">
+        <legend>Skill Details</legend>
+        <label for="skill">Skill: </label>
+        <input type="text" name="title" placeholder="skill" id="skill">
+        <button type="submit">Add Skill</button>
+    </form>
+    <a href="/skills">All Skills</a>
+</body>
+</html>
